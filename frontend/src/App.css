@@ -1,0 +1,173 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #dbe9f5 100%);
+  margin: 0;
+  padding: 40px 0;
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(44, 62, 80, 0.12);
+  max-width: 900px; 
+  width: 95%; 
+  padding: 50px 60px;
+  box-sizing: border-box;
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+form input[type="text"] {
+  padding: 12px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 12px 24px;
+  margin-left: 10px;
+  background-color: #007a5a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #005a43;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.message p {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.message input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.message-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.message-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.message-buttons .edit-button {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.message-buttons .edit-button:hover {
+  background-color: #2980b9;
+}
+
+.message-buttons .delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.message-buttons .delete-button:hover {
+  background-color: #c0392b;
+}
+
+.message-buttons .save-button {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.message-buttons .save-button:hover {
+  background-color: #27ae60;
+}
+
+/* Cancel Button */
+.message-buttons .cancel-button {
+  background-color: #95a5a6;
+  color: #fff;
+}
+
+.message-buttons .cancel-button:hover {
+  background-color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  form button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Wrapper to center content and control max-width */
+
+
+
